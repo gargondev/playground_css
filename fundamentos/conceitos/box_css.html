@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body * {
+            padding: .5em;
+        }
+
+        * {
+            margin-top: 1rem;
+        }
+
+        p {
+
+            border: solid black 2px;
+        }
+
+
+
+        div p {
+            display: inline;
+
+        }
+
+        span {
+            border: solid black 2px;
+        }
+
+        div {
+
+            border: solid orange 2px;
+        }
+
+        section {
+            border: solid cornflowerblue 2px;
+        }
+    </style>
+    <title>Conceitos - Box - Model</title>
+</head>
+
+<body>
+    <p style="display: inline;"> paragrafo fora da div definido css display inline</p>
+    <span style="display: block;">Span fora da div definido como display block</span>
+
+    <div>
+        Div block default
+        <p> paragrafo dentro div definido como inline</p>
+        <span>Span dentro da div com valor default inline</span>
+        <section>Section dentro da div default block</section>
+    </div>
+
+</body>
+
+</html>
